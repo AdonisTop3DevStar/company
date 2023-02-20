@@ -67,6 +67,25 @@ body.body-color-three {
   max-width: 1260px;
 }
 
+.logo img[alt="Image"],
+img[alt="Logo"] {
+  width: 75px;
+}
+
+img[alt="Mobile-Logo"] {
+  width: 50px;
+}
+
+img[alt="service"] {
+  width: 50px;
+}
+
+.our-approach-area .section-title {
+  max-width: 100% !important;
+}
+
+
+
 a {
   display: inline-block;
   -webkit-transition: all ease 0.5s;
@@ -3637,8 +3656,13 @@ Terms Conditions Area Style
   margin-bottom: 30px;
 }
 
-.terms-conditions .conditions-content h3 {
+.terms-conditions .conditions-content h3,
+.service-type-title h3 {
   margin-bottom: 15px;
+}
+
+.service-type-title h3 span {
+  color: #e21f36;
 }
 
 .terms-conditions .conditions-content p {
@@ -6956,3 +6980,7 @@ Tabs Area Style*/
   display: block;
 }
 /*# sourceMappingURL=style.css.map */
+
+.overly-two i img {
+  vertical-align: sub;
+}
